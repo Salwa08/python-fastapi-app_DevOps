@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 
 from .config import settings
+
 # TP5: test du filtre sur app/
 app = FastAPI(
     title=settings.APP_NAME,
