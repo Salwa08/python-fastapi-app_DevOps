@@ -1,15 +1,16 @@
 
 name: CI
 
-on: [push]
+on: [push, pull_request]
 
-env:
-  APP_NAME: fastapi-starter
+
 
 jobs:
   lint:
     name: Lint - Ruff
     runs-on: ubuntu-latest
+    env:
+        APP_NAME: fastapi-starter
     steps:
       - name: Récupérer le code
         uses: actions/checkout@v4
@@ -43,7 +44,7 @@ jobs:
       - name: Afficher le contexte GitHub JSON
         run: echo '${{ toJson(github) }}'
 
-        
+
   build:
     name: Build - Vérifier l'application
     runs-on: ubuntu-latest
