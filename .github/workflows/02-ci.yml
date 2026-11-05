@@ -3,6 +3,9 @@ name: CI
 
 on: [push]
 
+env:
+  APP_NAME: fastapi-starter
+
 jobs:
   lint:
     name: Lint - Ruff
@@ -24,6 +27,23 @@ jobs:
       - name: Vérifier le style
         run: ruff check .
 
+
+      - name: Afficher les contextes GitHub
+        run: |
+          echo "Application : ${{ env.APP_NAME }}"
+          echo "Acteur : ${{ github.actor }}"
+          echo "Événement : ${{ github.event_name }}"
+          echo "Branche : ${{ github.ref_name }}"
+          echo "SHA : ${{ github.sha }}"
+          echo "OS : ${{ runner.os }}"
+          echo "Head ref : ${{ github.head_ref }}"
+          echo "Base ref : ${{ github.base_ref }}"
+
+
+      - name: Afficher le contexte GitHub JSON
+        run: echo '${{ toJson(github) }}'
+
+        
   build:
     name: Build - Vérifier l'application
     runs-on: ubuntu-latest
