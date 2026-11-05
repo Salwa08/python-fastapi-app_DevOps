@@ -2,6 +2,9 @@
 
 A minimal, production‑leaning FastAPI template with testing (coverage), linting/formatting, Docker, and CI. Ships with a root endpoint and a health check.
 
+## TP5
+Test des filtres GitHub Actions.
+
 ## Features
 - FastAPI + Uvicorn
 - Pydantic Settings for configuration management
