@@ -50,13 +50,6 @@ Cette observation ponctuelle dépend du cache, du réseau et du runner ; elle
 ne constitue pas un benchmark général. Les durées totales des jobs ne sont
 pas directement comparables, car `build` effectue aussi d'autres opérations.
 
-## Capture de l'exécution réussie
-
-Capture réalisée dans Microsoft Edge : le statut `Success`, le commit
-`f5b1c37`, les trois jobs réussis et l'artefact `build-report` sont visibles.
-
-![Run TP 07 réussi avec build-report visible](preuves/tp07-success-build-report.jpg)
-
 ## Vérifications et déclenchements
 
 - `actionlint` 1.7.12 : workflow valide ; métadonnées des actions vérifiées.
