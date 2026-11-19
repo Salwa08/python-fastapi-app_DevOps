@@ -20,6 +20,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      full_version: ${{ steps.version.outputs.full_version }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -52,8 +54,27 @@ jobs:
           echo "Branch: $BRANCH_NAME"
           echo "Runner OS: $RUNNER_OS"
 
+      - name: Compute full version
+        id: version
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          full_version="$VERSION-$(date +%F)"
+          echo "full_version=$full_version" >> "$GITHUB_OUTPUT"
+          echo "Full version: $full_version"
+
   verify-env:
     runs-on: ubuntu-latest
     steps:
       - name: Print APP_NAME
         run: echo "APP_NAME in another job is '${APP_NAME:-}'"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show deployment target
+        env:
+          FULL_VERSION: ${{ needs.build.outputs.full_version }}
+          TARGET_ENVIRONMENT: ${{ inputs.environment }}
+        run: echo "Deploying $FULL_VERSION to $TARGET_ENVIRONMENT"
