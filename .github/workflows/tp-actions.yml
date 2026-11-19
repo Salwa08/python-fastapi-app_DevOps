@@ -55,3 +55,16 @@ jobs:
 
       - name: Print build report
         run: cat report.txt
+
+  docker-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Run Docker hello action
+        uses: ./.github/actions/docker-hello
+        with:
+          who: GitHub Actions
