@@ -31,6 +31,14 @@ Les résultats et les détails des steps sont conservés dans
 suivant `66bfac8` ne changent pas les workflows : ils documentent cette
 exécution, sans lancer de run supplémentaire.
 
+## Capture de l'exécution réussie
+
+Capture réalisée dans Microsoft Edge sur la page du run final. Le statut
+`Success`, le commit `66bfac8` et les jobs `build` et `deploy` réussis y sont
+visibles, ainsi que `verify-env` et `call-greeting / greet`.
+
+![Exécution réussie du TP 06 : build et deploy](preuves/tp06-success.jpg)
+
 ## Vérifications locales
 
 - `actionlint` 1.7.12 : syntaxe et expressions des deux nouveaux workflows valides.
