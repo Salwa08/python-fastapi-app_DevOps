@@ -1,0 +1,502 @@
+[
+  {
+    "conclusion": "success",
+    "createdAt": "2026-11-19T22:01:43Z",
+    "databaseId": 44624595703,
+    "event": "workflow_dispatch",
+    "headBranch": "feature/tp-env",
+    "headSha": "3c97398ebfd117ace507020a0c8988d406a63cf2",
+    "status": "completed",
+    "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44624595703",
+    "inputs": {
+      "environment": "staging",
+      "version": "1.0.0",
+      "debug": false
+    },
+    "jobs": [
+      {
+        "completedAt": "2026-11-19T22:01:49Z",
+        "conclusion": "success",
+        "databaseId": 135914938554,
+        "name": "verify-env",
+        "startedAt": "2026-11-19T22:01:46Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:01:47Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:01:47Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:47Z",
+            "conclusion": "success",
+            "name": "Print APP_NAME",
+            "number": 2,
+            "startedAt": "2026-11-19T22:01:47Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:47Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T22:01:47Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44624595703/job/135914938554"
+      },
+      {
+        "completedAt": "2026-11-19T22:01:53Z",
+        "conclusion": "success",
+        "databaseId": 135914939025,
+        "name": "build",
+        "startedAt": "2026-11-19T22:01:46Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:01:49Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:01:47Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "success",
+            "name": "Checkout repository",
+            "number": 2,
+            "startedAt": "2026-11-19T22:01:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "success",
+            "name": "Set environment variables",
+            "number": 3,
+            "startedAt": "2026-11-19T22:01:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "success",
+            "name": "Print environment variables",
+            "number": 4,
+            "startedAt": "2026-11-19T22:01:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "success",
+            "name": "Print deployment inputs",
+            "number": 5,
+            "startedAt": "2026-11-19T22:01:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "skipped",
+            "name": "Print debug information",
+            "number": 6,
+            "startedAt": "2026-11-19T22:01:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "success",
+            "name": "Post Checkout repository",
+            "number": 12,
+            "startedAt": "2026-11-19T22:01:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:01:51Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 13,
+            "startedAt": "2026-11-19T22:01:51Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44624595703/job/135914939025"
+      }
+    ]
+  },
+  {
+    "conclusion": "success",
+    "createdAt": "2026-11-19T22:04:44Z",
+    "databaseId": 44625088276,
+    "event": "workflow_dispatch",
+    "headSha": "0ce20cc874f8412b9fb1434d2a9798449d5bce28",
+    "status": "completed",
+    "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625088276",
+    "inputs": {
+      "environment": "staging",
+      "version": "1.0.0",
+      "debug": true
+    },
+    "jobs": [
+      {
+        "completedAt": "2026-11-19T22:04:53Z",
+        "conclusion": "success",
+        "databaseId": 135916661005,
+        "name": "build",
+        "startedAt": "2026-11-19T22:04:48Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:04:50Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:04:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:50Z",
+            "conclusion": "success",
+            "name": "Checkout repository",
+            "number": 2,
+            "startedAt": "2026-11-19T22:04:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Set environment variables",
+            "number": 3,
+            "startedAt": "2026-11-19T22:04:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Print environment variables",
+            "number": 4,
+            "startedAt": "2026-11-19T22:04:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Print deployment inputs",
+            "number": 5,
+            "startedAt": "2026-11-19T22:04:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Print debug information",
+            "number": 6,
+            "startedAt": "2026-11-19T22:04:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Compute full version",
+            "number": 7,
+            "startedAt": "2026-11-19T22:04:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Post Checkout repository",
+            "number": 14,
+            "startedAt": "2026-11-19T22:04:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:51Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 15,
+            "startedAt": "2026-11-19T22:04:51Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625088276/job/135916661005"
+      },
+      {
+        "completedAt": "2026-11-19T22:04:51Z",
+        "conclusion": "success",
+        "databaseId": 135916661430,
+        "name": "verify-env",
+        "startedAt": "2026-11-19T22:04:47Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:04:48Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:04:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:48Z",
+            "conclusion": "success",
+            "name": "Print APP_NAME",
+            "number": 2,
+            "startedAt": "2026-11-19T22:04:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:48Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T22:04:48Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625088276/job/135916661430"
+      },
+      {
+        "completedAt": "2026-11-19T22:04:58Z",
+        "conclusion": "success",
+        "databaseId": 135916731932,
+        "name": "deploy",
+        "startedAt": "2026-11-19T22:04:55Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:04:55Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:04:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:56Z",
+            "conclusion": "success",
+            "name": "Show deployment target",
+            "number": 2,
+            "startedAt": "2026-11-19T22:04:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:04:56Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T22:04:56Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625088276/job/135916731932"
+      }
+    ]
+  },
+  {
+    "conclusion": "success",
+    "createdAt": "2026-11-19T22:07:54Z",
+    "databaseId": 44625614636,
+    "event": "workflow_dispatch",
+    "headSha": "66bfac88976472e9865032d13283b32985210b2d",
+    "status": "completed",
+    "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625614636",
+    "inputs": {
+      "environment": "staging",
+      "version": "1.0.0",
+      "debug": true
+    },
+    "jobs": [
+      {
+        "completedAt": "2026-11-19T22:08:05Z",
+        "conclusion": "success",
+        "databaseId": 135918513907,
+        "name": "build",
+        "startedAt": "2026-11-19T22:07:57Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:07:59Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:07:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Checkout repository",
+            "number": 2,
+            "startedAt": "2026-11-19T22:07:59Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Set environment variables",
+            "number": 3,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Print environment variables",
+            "number": 4,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Print deployment inputs",
+            "number": 5,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Print debug information",
+            "number": 6,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Compute full version",
+            "number": 7,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Post Checkout repository",
+            "number": 14,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:03Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 15,
+            "startedAt": "2026-11-19T22:08:03Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625614636/job/135918513907"
+      },
+      {
+        "completedAt": "2026-11-19T22:08:01Z",
+        "conclusion": "success",
+        "databaseId": 135918514249,
+        "name": "verify-env",
+        "startedAt": "2026-11-19T22:07:57Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:07:58Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:07:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:07:58Z",
+            "conclusion": "success",
+            "name": "Print APP_NAME",
+            "number": 2,
+            "startedAt": "2026-11-19T22:07:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:07:58Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T22:07:58Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625614636/job/135918514249"
+      },
+      {
+        "completedAt": "2026-11-19T22:07:59Z",
+        "conclusion": "success",
+        "databaseId": 135918514526,
+        "name": "call-greeting / greet",
+        "startedAt": "2026-11-19T22:07:57Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:07:58Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:07:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:07:58Z",
+            "conclusion": "success",
+            "name": "Print greeting",
+            "number": 2,
+            "startedAt": "2026-11-19T22:07:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:07:58Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T22:07:58Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625614636/job/135918514526"
+      },
+      {
+        "completedAt": "2026-11-19T22:08:09Z",
+        "conclusion": "success",
+        "databaseId": 135918609817,
+        "name": "deploy",
+        "startedAt": "2026-11-19T22:08:07Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:08:07Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:08:07Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:07Z",
+            "conclusion": "success",
+            "name": "Show deployment target",
+            "number": 2,
+            "startedAt": "2026-11-19T22:08:07Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:08:07Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T22:08:07Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Salwa08/python-fastapi-app_DevOps/actions/runs/44625614636/job/135918609817"
+      }
+    ]
+  }
+]
